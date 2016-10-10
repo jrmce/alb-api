@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint lib",
     "start": "node index.js",
-    "dev": "nodemon index.js",
+    "dev": "nodemon index.js --exec 'npm run lint'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JR McEntee",
