@@ -12,7 +12,7 @@
   "author": "JR McEntee",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^0.8.7",
+    "bcryptjs": "^2.3.0",
     "boom": "^4.1.0",
     "catbox-redis": "^2.0.2",
     "good": "^7.0.2",
